@@ -34,8 +34,9 @@
 
 以下為完整的端到端處理流程圖。包含「前端攔截層」、「後端核心 LangGraph 狀態機」與「多智能體事實查核」的詳細動態路由。
 
+
 ```mermaid
-graph TD
+graph LR
     %% 樣式定義
     classDef user fill:#ececff,stroke:#9393ff,stroke-width:2px;
     classDef cache fill:#fff2cc,stroke:#d6b656,stroke-width:2px;
